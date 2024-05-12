@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-data = pd.read_excel('Population in Malaysia.xlsx')
+data = pd.read_excel('C:/Users/elim6/OneDrive/Documents/personal/ENQI/Population in Malaysia.xlsx')
 
 # Filter the data for age and gender analysis, excluding overall totals
 age_gender_data = data[(data['sex'] != 'overall_sex') & (data['age'] != 'overall_age')]
